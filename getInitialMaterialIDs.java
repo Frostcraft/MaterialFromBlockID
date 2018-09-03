@@ -3,7 +3,6 @@
 		for (Material material: Material.values()) {
 			try {
 				BufferedWriter writer = new BufferedWriter(new FileWriter("out_ids.txt", true));
-				//ItemStack item = new ItemStack(material, 1);
 				writer.write("\ncase: "+ material.getId() + " returnMaterial = Material." + material.name() + ";\nbreak;");
 				writer.close();
 			} catch (IOException e) {
