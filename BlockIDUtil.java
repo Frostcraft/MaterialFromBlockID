@@ -2,6 +2,7 @@ import org.bukkit.Material;
 
 //This function gets a material from a block ID
 //  Some values aren't needed. Mostly need this for shops to continue working somewhat correctly.
+//  dmgValue doesn't work.
 public class BlockIDUtil {
 	public static Material getMaterialFromID(int blockID, int dmgValue) {
 		Material returnMaterial = null;
