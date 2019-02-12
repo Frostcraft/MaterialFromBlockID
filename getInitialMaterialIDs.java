@@ -6,7 +6,6 @@
 				writer.write("\ncase: "+ material.getId() + " returnMaterial = Material." + material.name() + ";\nbreak;");
 				writer.close();
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}					
 		}	
