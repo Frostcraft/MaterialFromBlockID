@@ -1,8 +1,7 @@
 import org.bukkit.Material;
 
-//This function gets a material from a block ID
+// This function gets a material from a block ID
 //  Some values aren't needed. Mostly need this for shops to continue working somewhat correctly.
-//  dmgValue doesn't work.
 public class BlockIDUtil {
 	public static Material getMaterialFromID(int blockID, int dmgValue) {
 		Material returnMaterial = null;
@@ -133,7 +132,7 @@ public class BlockIDUtil {
 			break;
 			case 62: returnMaterial = Material.FURNACE; //Burning furnace, replace with furnace
 			break;
-			case 63: returnMaterial = Material.SIGN; //Sign post, replace with sign
+			case 63: returnMaterial = Material.OAK_SIGN; //Sign post, replace with sign
 			break;
 			case 64: returnMaterial = Material.OAK_DOOR;
 			break;
@@ -143,7 +142,7 @@ public class BlockIDUtil {
 			break;
 			case 67: returnMaterial = Material.COBBLESTONE_STAIRS;
 			break;
-			case 68: returnMaterial = Material.WALL_SIGN;
+			case 68: returnMaterial = Material.OAK_WALL_SIGN;
 			break;
 			case 69: returnMaterial = Material.LEVER;
 			break;
@@ -649,7 +648,7 @@ public class BlockIDUtil {
 			break;
 			case 322: returnMaterial = Material.GOLDEN_APPLE;
 			break;
-			case 323: returnMaterial = Material.SIGN;
+			case 323: returnMaterial = Material.OAK_SIGN;
 			break;
 			case 324: returnMaterial = Material.OAK_DOOR;
 			break;
